@@ -1,10 +1,16 @@
-use iced::{button, Row};
-use iced::{Button, Error, Column, Text, Sandbox, Element, Alignment};
+use iced::{
+    Alignment, 
+    Button, 
+    Row, 
+    Text, 
+    Sandbox, 
+    Element,
+};
 
 #[derive(Default)]
 struct Counter {
     value: i32,
-    count_button: button::State,
+    count_button: iced::button::State,
 }
 
 impl Sandbox for Counter {
