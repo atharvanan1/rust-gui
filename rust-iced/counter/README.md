@@ -1,6 +1,6 @@
 # Counter in [Rust-Iced](iced.rs)
 
-Here, the struct `Counter` defines the state of the counter application.
+Here, the struct `Counter` defines the state of the counter application. This is used to show how to create a frame with iced.
 
 1. value - represents the current count
 2. count_button - represents whether the button is pressed or not

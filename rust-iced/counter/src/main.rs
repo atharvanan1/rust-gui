@@ -21,7 +21,7 @@ impl Sandbox for Counter {
     }
 
     fn title(&self) -> String {
-        String::from("Test Counter")
+        String::from("Counter")
     }
 
     fn view(&mut self) -> Element<Message> {
@@ -55,7 +55,7 @@ pub enum Message {
 
 fn main() -> Result<(), iced::Error> {
     let mut window_settings = iced::window::Settings::default();
-    window_settings.size = (150, 100);
+    window_settings.size = (170, 100);
     window_settings.position = iced::window::Position::Specific(0, 0);
     let mut settings = iced::Settings::default();
     settings.window = window_settings;
