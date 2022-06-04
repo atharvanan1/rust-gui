@@ -1,4 +1,4 @@
-# Counter in [Rust-Iced](iced.rs)
+# [Rust-Iced](iced.rs) examples
 
 Iced follows Elm Architecture for GUI design. It has following components:
 

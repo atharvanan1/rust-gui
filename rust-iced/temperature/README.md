@@ -1,4 +1,4 @@
-# Counter in [Rust-Iced](iced.rs)
+# Temperature in [Rust-Iced](iced.rs)
 
 Here, the struct `Temperature` defines the state of the Temperature application.
 
